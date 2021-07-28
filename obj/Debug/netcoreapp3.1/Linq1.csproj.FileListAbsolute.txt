@@ -1,0 +1,12 @@
+/Users/macbookpro/Desktop/Foothill/Linq1/bin/Debug/netcoreapp3.1/Linq1.deps.json
+/Users/macbookpro/Desktop/Foothill/Linq1/bin/Debug/netcoreapp3.1/Linq1.runtimeconfig.json
+/Users/macbookpro/Desktop/Foothill/Linq1/bin/Debug/netcoreapp3.1/Linq1.runtimeconfig.dev.json
+/Users/macbookpro/Desktop/Foothill/Linq1/bin/Debug/netcoreapp3.1/Linq1.dll
+/Users/macbookpro/Desktop/Foothill/Linq1/bin/Debug/netcoreapp3.1/Linq1.pdb
+/Users/macbookpro/Desktop/Foothill/Linq1/obj/Debug/netcoreapp3.1/Linq1.csprojAssemblyReference.cache
+/Users/macbookpro/Desktop/Foothill/Linq1/obj/Debug/netcoreapp3.1/Linq1.AssemblyInfoInputs.cache
+/Users/macbookpro/Desktop/Foothill/Linq1/obj/Debug/netcoreapp3.1/Linq1.AssemblyInfo.cs
+/Users/macbookpro/Desktop/Foothill/Linq1/obj/Debug/netcoreapp3.1/Linq1.csproj.CoreCompileInputs.cache
+/Users/macbookpro/Desktop/Foothill/Linq1/obj/Debug/netcoreapp3.1/Linq1.dll
+/Users/macbookpro/Desktop/Foothill/Linq1/obj/Debug/netcoreapp3.1/Linq1.pdb
+/Users/macbookpro/Desktop/Foothill/Linq1/obj/Debug/netcoreapp3.1/Linq1.genruntimeconfig.cache

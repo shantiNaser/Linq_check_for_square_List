@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Linq1
 {
-    public class Exercise1
+    public static class Exercise1
     {
 
         // The following method should return true if each element in the squares sequence
@@ -14,7 +14,7 @@ namespace Linq1
         // [1,2,3,4]
         // [1,4,9,16]
 
-        public static bool TestForSquares(IEnumerable<int> numbers, IEnumerable<int> squares)
+        public static bool TestForSquares(this IEnumerable<int> numbers, IEnumerable<int> squares)
         {
             return numbers.Select(num => num * num).SequenceEqual(squares);
         }
