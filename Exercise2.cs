@@ -15,36 +15,8 @@ namespace Linq1
         public static string GetTheLastWord(this IEnumerable<string> words)
         {
             // using Lambda expression Syntax
-            // return $"The last word is {words.Where(st => st.Contains("e")).OrderBy(st => st).Select(st => st).ToArray().LastOrDefault()}";
-            string g = words.Where(st => st.Contains("e")).OrderBy(st => st).Select(st => st).ToArray().LastOrDefault();
-            if (g == null)
-            {
-                return "null";
-            }
-            else
-            {
-                return $"The last word is <{g}>";
-            }
-
-            // using Query Syntax
-            // var Query = from word in words
-            //             where word.Contains("e")
-            //             orderby word ascending
-            //             select word;
-
-            // if (Query.LastOrDefault() == null)
-            // {
-            //     return null;
-            // }
-            // else
-            // {
-            //     return $"The last word is {Query.LastOrDefault()}";
-            // }
-
-            // The Coreect solution in Query syntax
-
-
-
+            string g = words.Where(st => st.Contains("e")).OrderBy(st => st).LastOrDefault();
+            return g != null ? $"The last word is <{g}>" : null;
 
 
         }
